@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+}
+nav ul li {
+  margin-right: 2.5rem;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #a68041;
+}
+nav ul li a:hover {
+  color: bisque;
+}
+
+Footer {
+  background-color: #0e2a40;
+}
+
+header {
+  background-color: #0e2a40;
+}
+
+main {
+  background-color: #fdf7eb;
+}
+
+.content {
+  width: 80%;
+  margin: 1, 5;
+  padding: auto;
+}
+
+.content__intro {
+  color: #0e2a40;
+  padding: 5rem;
+  font-weight: bold;
+}
+.content__intro:hover {
+  color: blueviolet;
+}
+
+.content__paragraph- -intro {
+  color: black;
+  height: normal;
+  text-align: justify-center;
+}
+.content__paragraph- -intro:hover {
+  color: #0e2a40;
+}
+
+.front {
+  width: 100%;
+  margin: auto;
+  padding: auto;
+}
+
+.header-sm__icons {
+  margin-top: auto;
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+  align-items: center;
+}
+
+.content_box_uno {
+  align-content: left;
+  max-width: 40mp;
+  border-color: #0e2a40;
+}
+
+.footer_text {
+  color: #a68041;
+}
+
+.boxbox {
+  width: 560;
+  height: 315;
+}
+
+/*# sourceMappingURL=style.css.map */

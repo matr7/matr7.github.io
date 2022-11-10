@@ -1,0 +1,67 @@
+Footer {
+ background-color: $primary-color;
+}
+
+header {
+ background-color: $primary-color;
+}
+
+main {
+    background-color: #fdf7eb;
+   }
+.content {
+    width: 80%;
+    margin: 1,5;
+    padding: auto;
+    }
+
+.content__intro {
+    color: $primary-color;
+    padding: 5rem;
+    font-weight: bold;
+    &:hover {
+        color: blueviolet;
+    }
+        
+}
+
+.content__paragraph- -intro {
+
+    color: black;
+    height: normal;
+    text-align: justify-center;
+    &:hover {
+        color: $primary-color;
+    }
+
+}
+
+.front {
+    width: 100%;
+    margin: auto;
+    padding: auto;
+}
+
+.header-sm__icons {
+    margin-top: auto;
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    align-items: center ;
+              
+}
+
+.content_box_uno {
+    align-content: left;
+    max-width: 40mp;
+    border-color: $primary-color;
+}
+
+.footer_text {
+    color: #a68041;
+}
+
+.boxbox {
+    width: 560;
+    height: 315;
+    }
